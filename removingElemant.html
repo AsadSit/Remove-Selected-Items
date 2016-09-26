@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <title>Removing Elements</title>
+    <style>
+        article{
+            width:70%;
+            margin:0 auto;
+            height:1000px;
+        } 
+        .blue,.green,.grey,.black,.maroon,.aqua,.lime,.pink,
+        .violet,.red{
+            display:inline-block;
+            height:300px;
+            width:300px;
+            margin:1px;
+            margin-top:2px;
+        } 
+        .blue{
+          
+            background:blue;
+        } 
+        .green{
+            background:green;
+        } 
+        .grey{
+            background:grey;
+        } 
+       .black{
+            background:black;
+        } 
+        .maroon{
+            background:maroon;
+        } 
+        .aqua{
+            background:aqua;
+        } 
+        .lime{
+            background:lime;
+        } 
+        .pink{
+            background:pink;
+        } 
+       .violet{
+            background:violet;
+        } 
+        .red{
+            background:red;
+        }
+         h2{
+            text-align: center;
+            color:#fff;
+            padding-top:50%;
+        }
+    </style> 
+  </head>
+  <body>
+    <article class="myDivs">
+      <div class="red" id="red">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="blue" id="blue">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="green" id="green">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="grey" id="grey">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="black" id="black">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="maroon" id="maroon">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="aqua" id="aqua">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="lime" id="lime">
+       <h2>Click me to out!!!</h2> 
+        
+      </div>
+      <div class="pink"id="pink">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+      <div class="violet" id="violet">
+        <h2>Click me to out!!!</h2>
+        
+      </div>
+    </article>
+  <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+    <script type = "text/javascript" lang="javascript">
+       $(document).ready(function(){
+         $("#red").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="RED"){
+                $("#red").hide(1000);
+            }      
+         });
+           
+          $("#blue").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="BLUE"){
+                $("#blue").hide(1000);
+            }      
+         });  
+           
+          $("#green").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="GREEN"){
+                $("#green").hide(1000);
+            }      
+         });      
+             $("#grey").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="GREY"){
+                $("#grey").hide(1000);
+            }      
+         });   
+            
+           $("#black").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="BLACK"){
+                $("#black").hide(1000);
+            }      
+         });
+           
+             $("#maroon").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="MAROON"){
+                $("#maroon").hide(1000);
+            }      
+         });
+           
+               $("#aqua").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="AQUA"){
+                $("#aqua").hide(1000);
+               
+            }      
+         });
+                   $("#lime").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="LIME"){
+                $("#lime").hide(1000);
+            }      
+         });
+           
+           
+           
+               $("#pink").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="PINK"){
+                $("#pink").hide(1000);
+            }      
+         });
+               $("#violet").click(function(){
+            var ask=prompt("What is the current color?");
+            if(ask.toUpperCase()==="VIOLET"){
+                $("#violet").hide(1000);
+            }      
+         });  
+           
+         
+           
+       });
+        
+    
+    </script>
+  </body>
+</html>
